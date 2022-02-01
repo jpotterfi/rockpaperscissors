@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+    
+    
+}
+
+
+#rounds {
+    padding: 16px;
+    
+}
+
+.opponentsBox{
+    display: flex;
+    gap: 64px;
+    font-size: 50px;
+}
+
+.player {
+    
+    padding: 16px;
+    
+}
+
+.computer {
+    
+    padding: 16px;
+}
+
+.weaponsBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 32px;
+}
+
+img {
+    max-height: 250px;
+    max-width: 250px;
+    padding: 10px;
+}
+
+.rockBox {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.paperBox {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.scissorsBox {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.reset {
+    background-color: red;
+    min-width: 50px;
+    min-height: 50px;
+    font-weight: 900;
+}
